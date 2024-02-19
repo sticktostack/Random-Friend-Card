@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(44, 44, 44);
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cadetblue;
+}
+.card{
+    user-select: none;
+    z-index: 9;
+    position: relative;
+    min-height: 400px;
+    min-width: 350px;
+    border-radius: 10px;
+    background-color: crimson;
+    box-shadow: 9px 6px 20px #00000058;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textbox{
+    border-radius: 10px;
+    min-height: 90%;
+    min-width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 7px 12px;
+    flex-direction: column;
+}
+p{
+    font-size: 20px;
+    color: #c7c7c7;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    font-size: 25px;
+}
+hr{
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: rgba(37, 37, 37, 0.187);
+}
+#btn{
+    padding: 8px 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.2s;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+img{
+    display: none;
+    margin-bottom: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#btn:hover{
+    background-color: whitesmoke;
+    color: crimson;
+}
+span{
+    margin: 0px 130px;
+}
+.bgTxt{
+    letter-spacing: 3px;
+    position: absolute;
+    font-size: 80px;
+    font-family: fantasy;
+    color: transparent;
+    font-weight: 100;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+}
